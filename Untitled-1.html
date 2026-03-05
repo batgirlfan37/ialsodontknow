@@ -1,10 +1,18 @@
 <html>
 <head>
 <style>
+
+@keyframes myAnimation {
+    from {background-color: red;}
+    to {background-color: aliceblue;}
+}
+
 div {
     width: 100px;
     height: 100px;
     background-color: red;
+    animation-name: myAnimation;
+    animation-duration 4s;
     transition: width 2s, height 4s, background-color 3s, scale 8s;
 }
 
