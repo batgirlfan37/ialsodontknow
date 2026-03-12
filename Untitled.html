@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+
+:root {
+    --background-color:rgb(255, 255, 255);
+    --dark-mode-background-color:rgb(0, 0, 0);
+    --emphasis-color:rgb(204, 20, 210);
+    --primary-color:rgb(18, 64, 192);
+    --secondary-color:rgb(101, 21, 138);
+    --text-color:rgb(0, 0, 0);
+    --dark-mode-text:rgb(255, 255, 255);
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    color: var(--primary-color);
+    animation-name: myAnimation;
+    animation-duration 4s;
+    transition: width 1s, height 1s, background-color 7s, scale 8s;
+}
+
+div:hover {
+    width: 450px;
+    height: 450px;
+    scale: 5;
+    background-color: lightslategray;
+}
+</style>
+</head>
+<body>
+
+<h1>The Transition Property</h1>
+
+<p>Hover over the div element below, to see the transition effect:</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime, nemo perspiciatis consectetur rem, velit suscipit adipisci porro fuga unde voluptate delectus odit autem quo sequi obcaecati beatae. Obcaecati, dignissimos?</p>
+<div></div>
+
+</body>
+</html>
